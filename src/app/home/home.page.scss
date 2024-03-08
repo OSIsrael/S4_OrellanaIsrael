@@ -1,0 +1,92 @@
+ion-content {
+  ion-item {
+    margin-bottom: 10px;
+  }
+
+  .type-square {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .steel {
+    background: #60a2b9;
+  }
+
+  .water {
+    background: #2481f0;
+  }
+
+  .bug {
+    background: #97a61d;
+  }
+
+  .dragon {
+    background: #4f60e2;
+  }
+
+  .electric {
+    background: #fac100;
+  }
+
+  .ghost {
+    background: #6f3f70;
+  }
+
+  .fire {
+    background: #e62223;
+  }
+
+  .fairy {
+    background: #ef70f0;
+  }
+
+  .ice {
+    background: #3dd9ff;
+  }
+
+  .fight {
+    background: #ff8100;
+  }
+
+  .normal {
+    background: #a0a2a0;
+  }
+
+  .grass {
+    background: #3da224;
+  }
+
+  .psychic {
+    background: #ef3f7a;
+  }
+
+  .rock {
+    background: #afaa81;
+  }
+
+  .dark {
+    background: #4e3f3c;
+  }
+
+  .ground {
+    background: #914f1a;
+  }
+
+  .poison {
+    background: #913ecb;
+  }
+
+  .flying {
+    background: #82baf0;
+  }
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 10px;
+}

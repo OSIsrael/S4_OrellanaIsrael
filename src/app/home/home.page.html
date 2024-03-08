@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Busca tu pokemon jeje :D
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="stacked">Nombre o ID del Pokémon</ion-label>
+    <ion-input [(ngModel)]="pokemonInput" placeholder="Ingrese el nombre o ID"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="searchPokemon()">Buscar Pokémon</ion-button>
+  <ion-item *ngIf="pokemonImageUrl">
+    <img [src]="pokemonImageUrl" alt="Imagen del Pokémon">
+  </ion-item>
+  <ion-item *ngIf="pokemonTypes">
+    <ion-label>Tipo:</ion-label>
+    <div *ngFor="let type of pokemonTypes" class="type-square" [ngClass]="type.toLowerCase()"></div>
+    <ion-text>{{ pokemonTypes.join(', ') }}</ion-text>
+  </ion-item>
+
+ 
+</ion-content>

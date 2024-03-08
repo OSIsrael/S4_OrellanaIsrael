@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "s4orellana": {
+      "hosting": {
+        "app": [
+          "s4orellana"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "s4orellana"
+  }
+}

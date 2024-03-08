@@ -1,0 +1,7 @@
+{
+  "name": "SA4_OrellanaIsrael3E1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
