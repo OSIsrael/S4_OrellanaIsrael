@@ -23,11 +23,11 @@ export class HomePage {
         this.pokemonTypes = data.types.map((type: any) => type.type.name);
         this.pokemonImageUrl = data.sprites.front_default;
 
-        // Guardar los tipos en Firestore
+       
         if (this.pokemonTypes.length > 0) {
-          const tipoRef = doc(this.db, 'pokemon', 'tipo'); // Documento 'tipo' en la colección 'pokemon'
+          const tipoRef = doc(this.db, 'pokemon', 'tipo'); 
 
-          // Utilizamos setDoc para actualizar el campo 'tipo'
+          
           await setDoc(tipoRef, { tipo: this.pokemonTypes[0] });
 
           console.log('Tipo del Pokémon actualizado en Firestore correctamente.');
